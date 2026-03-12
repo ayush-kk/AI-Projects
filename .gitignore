@@ -1,1 +1,123 @@
 /.qoder
+#############################################
+# Root Gitignore for Full-Stack Project
+# Backend: FastAPI (Python)
+# Frontend: Vite + React + Tailwind
+#############################################
+
+# -------------------------------
+# Environment Files (global)
+# -------------------------------
+.env
+.env.local
+.env.*.local
+
+# -------------------------------
+# Python Virtual Environments
+# -------------------------------
+venv/
+.env/
+.venv/
+
+# Pip cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.egg-info/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Uvicorn / FastAPI logs
+*.log
+
+# SQLite / database
+*.db
+*.sqlite
+*.sqlite3
+instance/
+backend/app.db
+
+# Uploaded files & generated files
+uploads/
+storage/
+generated/
+media/
+backend/uploads/
+backend/generated/
+
+# -------------------------------
+# Node / Frontend
+# -------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Frontend build
+frontend/dist/
+dist/
+build/
+.vite/
+vite.svg
+
+# Tailwind CSS v4 cache
+.tailwind/
+
+# -------------------------------
+# IDE Settings
+# -------------------------------
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------------
+# Operating System Junk
+# -------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# -------------------------------
+# Testing / Coverage
+# -------------------------------
+coverage/
+*.lcov
+
+# -------------------------------
+# Misc Cache / Temp
+# -------------------------------
+.cache/
+.temp/
+.tmp/
+.eslintcache
+stylelintcache
+tsconfig.tsbuildinfo
+
+# Python build artifacts
+build/
+dist/

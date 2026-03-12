@@ -1,6 +1,15 @@
 import { useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { HiOutlineSparkles, HiOutlineDocumentText, HiOutlinePhoto, HiOutlineCode, HiOutlineGlobeAlt, HiOutlineChatBubbleBottomCenter } from 'react-icons/hi2';
+
+import { 
+  HiOutlineSparkles, 
+  HiOutlineDocumentText, 
+  HiOutlinePhoto, 
+  HiOutlineGlobeAlt, 
+  HiOutlineChatBubbleBottomCenter,
+  HiOutlineCodeBracket
+} from "react-icons/hi2";
+
 import MessageBubble from './MessageBubble';
 import StreamingMessage from './StreamingMessage';
 import ChatInput from './ChatInput';
@@ -9,7 +18,7 @@ import { useChat } from '../../context/ChatContext';
 const STARTERS = [
   { icon: HiOutlineDocumentText, label: 'Summarize a document', prompt: 'Help me summarize a document I will upload' },
   { icon: HiOutlinePhoto, label: 'Generate an image', prompt: 'Generate an image of ' },
-  { icon: HiOutlineCode, label: 'Write some code', prompt: 'Write a code snippet that ' },
+  { icon: HiOutlineCodeBracket, label: 'Write some code', prompt: 'Write a code snippet that ' },
   { icon: HiOutlineGlobeAlt, label: 'Search the web', prompt: 'Search the web for ' },
   { icon: HiOutlineChatBubbleBottomCenter, label: 'General chat', prompt: 'Hello! I would like to ' },
   { icon: HiOutlineDocumentText, label: 'Create a report', prompt: 'Generate a professional report about ' },

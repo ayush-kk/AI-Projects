@@ -1,0 +1,49 @@
+###################################
+# Backend (FastAPI / Python)
+###################################
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# SQLite database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uvicorn / FastAPI logs
+*.log
+logs/
+
+# Uploaded files
+uploads/
+media/
+generated/
+
+# Coverage reports
+.coverage
+htmlcov/
+coverage.xml
+
+# Pycache deeper
+**/__pycache__/
+``

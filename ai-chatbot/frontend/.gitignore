@@ -1,0 +1,98 @@
+# ----------------------------------------
+# Node
+# ----------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+
+# ----------------------------------------
+# Vite build output
+# ----------------------------------------
+dist/
+build/
+
+# Local server cache
+vite.config.ts.timestamp*
+vite.config.js.timestamp*
+
+# Vite cache (optional but recommended)
+.vite/
+vite.svg
+
+# ----------------------------------------
+# Tailwind CSS
+# ----------------------------------------
+# Tailwind v4 compiled output cache
+.tailwind/
+
+# ----------------------------------------
+# Logs
+# ----------------------------------------
+logs/
+*.log
+*.log.*
+
+# ----------------------------------------
+# Environment variables
+# ----------------------------------------
+.env
+.env.local
+.env.*.local
+
+# ----------------------------------------
+# IDE / Editor folders
+# ----------------------------------------
+# VSCode
+.vscode/
+.vscode/*
+
+# JetBrains
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# ----------------------------------------
+# Operating System
+# ----------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ----------------------------------------
+# Misc caches
+# ----------------------------------------
+.cache/
+.temp/
+.tmp/
+.eslintcache
+stylelintcache
+tsconfig.tsbuildinfo
+
+# ----------------------------------------
+# Testing
+# ----------------------------------------
+coverage/
+*.lcov
+
+# ----------------------------------------
+# Additional build tools (optional)
+# ----------------------------------------
+dist-ssr/
+out/
+.svelte-kit/
